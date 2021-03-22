@@ -31,3 +31,12 @@ You need to download the .sh to some directory on your IFS, something like "/IBM
 
 Now you just need to adjust values in mnus3_const.sh to reflect your configuration and now you can run *mnus3.sh* 
 
+
+# UPDATE:
+
+The files with "2" use "AWS CLI". On IBM i just type: pip3 install awscli and then you can run "aws configure" to create the files you need to connect to Cloud Object Storage. I think it's some kind faster.
+
+On this update you can backup all your libraries with just one "INTRO" ;-)
+
+
+
