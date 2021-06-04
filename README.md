@@ -23,6 +23,7 @@ Python3
 readline
 pigz
 git
+p7zip (new addition)
 
 * Your system needs to reach the Internet. 
 * Setup SSH on your System (5733-SC1)
@@ -37,6 +38,8 @@ Now you just need to adjust values in mnus3_const.sh to reflect your configurati
 # UPDATE:
 
 The files with "2" use "AWS CLI". On IBM i just type: pip3 install awscli and then you can run "aws configure" to create the files you need to connect to Cloud Object Storage. I think it's some kind faster.
+
+Now the compression is using p7zip
 
 On this update you can backup all your libraries with just one "INTRO" ;-)
 
