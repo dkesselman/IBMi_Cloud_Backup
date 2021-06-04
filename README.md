@@ -13,7 +13,7 @@ That's why I tried to create a simpler solution to use ICOS.
 
 Most solutions on IBM i are Green-Screen , but as long as we need Python (in this case we use S3CMD ) to talk S3 lingo I just created a "simple" BASH script.
 
-![Cloud Menu](https://github.com/dkesselman/IBMi_Cloud_Backup/blob/main/IBMi_Backup_to_Cloud.gif "IBM i Cloud Backup - Menu")
+![Cloud Menu](https://github.com/dkesselman/IBMi_Cloud_Backup/blob/main/IBMi_Backup_to_IBM_COS.png "IBM i Cloud Object Storage Backup - Menu")
 
 # Pre-Reqs
 
