@@ -1,8 +1,11 @@
-        E='echo -e';e='echo -en';trap "R;exit" 2                                
-##    S3CMD='/QOpenSys/bin/s3cmd/s3cmd'   
-      S3CMD='aws --endpoint-url=https://s3.us-south.cloud-object-storage.appdomain.cloud s3'                                   
-BUCKETDFT='s3://ibmi-backup/'    
-PREFIXDFT='IBMi01'                                          
-  IFSPATH='/backup2cloud'      
-   LIBLST=$IFSPATH'/liblist.lst'                                          
+        E='echo -e';e='echo -en';trap "R;exit" 2             
+    S3CMD='aws --endpoint-url=https://s3.us-south.cloud-object-storage.appdomain.cloud s3'
+  IFSPATH='/backup2cloud'    
+   BUCKET='s3://ibmi-backup/'  
+   LIBLST=$IFSPATH'/liblist.lst'     
+  FLISTHD='System-- Save Date/Time Object--- Type---- Attribute- Size (Bytes)---- Owner------ Description--------------' 
       ESC=$( $e "\e")
+num_procs=3
+   pgzthr=12
+# Future improvements
+  maxsize=20
